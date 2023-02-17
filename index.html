@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Html css-ambiente-arquivos-tags</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header></header>
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+      </nav>
+    </header>
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">
@@ -19,7 +24,7 @@
           >
         </h1>
         <p class="apresentacao__conteudo__texto">
-          Olá! Sou Joana Santos,desenvolvedora Front-end com especialidade em
+          Olá! Sou Renata Oliveira,desenvolvedora Front-end com especialidade em
           React, HTML e CSS.Ajudo pequenos negócios e designers a colocarem em
           prática boas ideias. Vamos conversar?
         </p>
@@ -29,23 +34,27 @@
             class="apresentacao__links__link"
             href="https://github.com/renata-aline"
           >
-            <img src="img/Logo Github.svg" alt="logo git" />
+            <img src="img/Logo Github.svg" alt="logo git" target="_blank" class="apresentacao__links__icone" />
             Github</a
           >
 
           <a
             class="apresentacao__links__link"
             href="https://instagram.com/renataaolyveira"
-            ><img src="img/logoinsta.svg" alt="logo instagram" />Instagram</a
+            ><img src="img/logoinsta.svg" alt="logo instagram" target="_blank" class="apresentacao__links__icone" />Instagram</a
           >
 
           <a class="apresentacao__links__link" href="#"
-            ><img src="img/Logo linkedin.svg" alt="logo linkedin" />Linkedin</a
+            ><img src="img/Logo linkedin.svg" alt="logo linkedin"target="_blank" class="apresentacao__links__icone" />Linkedin</a
           >
         </div>
       </section>
-      <img src="Imagem.png" alt="Foto joana santos" />
+      <div class="apresentacao__perfil">
+      <img src="img/foto-renata.jpg" alt="Foto Renata Oliveira" class="apresentacao__perfil-foto" />
+    </div>
     </main>
-    <footer></footer>
+    <footer>
+      <p class="rodape">Desenvolvido por Renata.</p>
+    </footer>
   </body>
 </html>
